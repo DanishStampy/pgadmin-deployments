@@ -68,7 +68,7 @@ kind: Service
 metadata:
   name: elastio-service
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     app: elastio
   ports:
